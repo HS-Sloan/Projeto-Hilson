@@ -1,0 +1,37 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f0f0f0;
+}
+
+.register-input {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.register-button {
+  margin-top: 12px;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.register-button:hover {
+  background: #218838;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  .register-form {
+    width: 90%;
+  }
+}

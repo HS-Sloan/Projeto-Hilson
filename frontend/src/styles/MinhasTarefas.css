@@ -1,0 +1,70 @@
+.tarefas-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.tarefas-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tarefas-form input {
+  flex: 1;
+  padding: 10px;
+}
+
+.tarefas-form button {
+  padding: 10px 15px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.tarefas-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tarefas-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.tarefas-list li.concluida span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 600px) {
+  .tarefas-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .tarefas-form {
+    flex-direction: column;
+  }
+
+  .tarefas-form button {
+    width: 100%;
+  }
+
+  .tarefas-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tarefas-list li button {
+    margin-top: 5px;
+  }
+}

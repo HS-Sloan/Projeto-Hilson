@@ -1,0 +1,19 @@
+.job-list {
+  width: 45%;
+  background: #eef;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.job-item {
+  margin: 8px 0;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .job-list {
+    width: 100%;
+  }
+}

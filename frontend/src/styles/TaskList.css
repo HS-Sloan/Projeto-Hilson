@@ -1,0 +1,26 @@
+.task-list {
+  width: 45%;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.task-pendente {
+  color: red;
+}
+
+.task-em\ andamento {
+  color: orange;
+}
+
+.task-concluida {
+  color: green;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .task-list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
